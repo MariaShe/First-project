@@ -1,0 +1,40 @@
+body {
+    background-color: rgb(211, 216, 219);
+}
+
+
+.nav {
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+
+
+h1 {
+    color: rgb(58, 74, 95);
+    text-align: center;
+}
+
+
+h2 {
+    color: rgb(97, 121, 153);
+}
+
+
+.photo {
+    display: block;
+    border-radius: 20%;
+    border: 3px solid whitesmoke;
+    margin: 50px auto;
+}
+
+
+.skills li:nth-of-type(even) {
+    background-color: rgb(198, 230, 226);
+}
+
+
+.path li:nth-of-type(odd) {
+    background-color: rgb(198, 230, 226);
+}
