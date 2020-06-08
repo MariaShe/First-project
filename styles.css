@@ -1,26 +1,43 @@
 body {
     background-color: rgb(211, 216, 219);
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
 }
 
 
 .nav {
-    padding: 30px;
-    margin: 20px;
+    padding: 20px;
+    margin:  0 auto 20px;
     text-align: center;
     border-bottom: 1px solid gray;
 }
 
+.nav a {
+    margin-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+}
 
 h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 27px;
+    line-height: 37px;
     color: rgb(58, 74, 95);
     text-align: center;
 }
 
 
 h2 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    line-height: 38px;
     color: rgb(97, 121, 153);
 }
-
 
 .photo {
     display: block;
@@ -29,12 +46,36 @@ h2 {
     margin: 50px auto;
 }
 
-
-.skills li:nth-of-type(even) {
-    background-color: rgb(198, 230, 226);
+.skills ul {
+    list-style: url(./img/list-style.svg);
 }
 
+.skills li:nth-of-type(even) {
+    background-color: rgb(200, 204, 206);
+}
+
+.path-list {
+    list-style: url(./img/list-style_2.svg);
+}
 
 .path li:nth-of-type(odd) {
-    background-color: rgb(198, 230, 226);
+    background-color: rgb(200, 204, 206);
+}
+
+.contacts {
+    margin: -150px 0 0 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts-list ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+}
+
+.contacts-list ul li {
+    margin-right: 30px;
 }

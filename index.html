@@ -3,42 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> 
     <title>Мария Шестакова. Сайт-визитка</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;700&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header class="nav">
-       <a href="#about">Обо мне</a>
-       <a href="#skills">Навыки</a>
-       <a href="#contacts">Контакты</a>
+    <header>
+        <nav class="nav">
+            <a href="#about">Обо мне</a>
+            <a href="#skills">Навыки</a>
+            <a href="#contacts">Контакты</a>
+        </nav>
     </header>
     <main>
-        <h1>Мария Шестакова</h1>
+        <div class="title">
+            <h1>Мария Шестакова</h1>
             <img class="photo" src="img/photo.jpg" height="260" width="400" alt="photo">
-        <h2 id="about">Обо мне</h2>
-        <p>Инженер-химик и просто творческий человек</p>
-        <h2>Образование</h2>
-        <p>Тверской Государственный Университет. Товароведение и экспертиза товаров</p>
-        <h2 id="skills">Навыки</h2>
-        <ul class="skills">
-            <li>Титрование</li>
-            <li>Хроматография</li>
-            <li>Заполнение табличек Excel</li>
-            <li>Английский Advanced</li>
-        </ul>
-        <h2>Как я становилась разработчиком</h2>
-        <ul class="path">
-            <li>11 апреля - подача завки на обучение</li>
-            <li>12 апреля - начало занятий в SkillFactory</li>
-            <li>20 апрел - создание первого сайта-визитки</li>
-        </ul>
+        </div>
+        <div class="subtitle">
+            <div class="about">
+                <h2 id="about">Обо мне</h2>
+                <p>Инженер-химик и просто творческий человек</p>
+            </div>
+            <div class="education">
+                <h2>Образование</h2>
+                <p>Тверской Государственный Университет. Товароведение и экспертиза товаров</p>
+            </div>
+            <div class="skills">
+                <h2 id="skills">Навыки</h2>
+                <ul class="skills-list">
+                    <li>Титрование</li>
+                    <li>Хроматография</li>
+                    <li>Заполнение табличек Excel</li>
+                    <li>Английский Advanced</li>
+                </ul>
+            </div>
+            <div class="path">
+                <h2>Как я становилась разработчиком</h2>
+                <ul class="path-list">
+                    <li>11 апреля - подача завки на обучение</li>
+                    <li>12 апреля - начало занятий в SkillFactory</li>
+                    <li>20 апреля - создание первого сайта-визитки</li>
+                </ul>
+            </div>
+        </div>
     </main>
     <footer>
-        <h2 id="contacts">Контакты</h2>
-        <div class="conatacts">
-            <p>Телефон: <a href="tel:555-55-55">555-55-55</a></p>
-            <p>Вконтакте: <a href="https://vk.com/id564759662">Моя страница</a></p>
-            <p>Почта: <a href="mailto:smv1990@list.ru">smv1990@list.ru</a></p>
+        <div class="contacts">
+            <h2 id="contacts">Контакты</h2>
+            <div class="contacts-list">
+                <ul>
+                    <li><a href="tel:555-55-55"><img src="./img/phone-icon.svg" alt="phone"></a></li>
+                    <li><a href="https://vk.com/id564759662"><img src="./img/vk-icon.svg" alt="vk"></a></li>
+                    <li><a href="mailto:smv1990@list.ru"><img src="./img/email-icon.svg" alt="email"></a></li>
+                </ul>
+            </div>
         </div>
     </footer>
 </body>
