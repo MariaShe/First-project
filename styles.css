@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(211, 216, 219);
+    background-color: rgb(228, 216, 227);
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
 }
@@ -27,7 +27,7 @@ h1 {
     font-family: 'Roboto Slab', serif;
     font-size: 27px;
     line-height: 37px;
-    color: rgb(58, 74, 95);
+    color: rgb(148, 38, 133);
     text-align: center;
 }
 
@@ -36,13 +36,13 @@ h2 {
     font-family: 'Roboto Slab', serif;
     font-size: 20px;
     line-height: 38px;
-    color: rgb(97, 121, 153);
+    color: rgb(180, 73, 166);
 }
 
 .photo {
     display: block;
-    border-radius: 20%;
-    border: 3px solid whitesmoke;
+    border-radius: 50%;
+    border: 3px solid rgb(212, 222, 230);
     margin: 50px auto;
 }
 
@@ -51,7 +51,7 @@ h2 {
 }
 
 .skills li:nth-of-type(even) {
-    background-color: rgb(200, 204, 206);
+    background-color: rgb(213, 220, 221);
 }
 
 .path-list {
@@ -59,11 +59,11 @@ h2 {
 }
 
 .path li:nth-of-type(odd) {
-    background-color: rgb(200, 204, 206);
+    background-color: rgb(212, 222, 230);
 }
 
 .contacts {
-    margin: -150px 0 0 150px;
+    margin: -350px 0 0 150px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,4 +78,18 @@ h2 {
 
 .contacts-list ul li {
     margin-right: 30px;
+}
+
+@media (max-width: 1140px) {
+    .main {
+        display: flex;
+        flex-direction: column;
+    }
+    .contacts {
+        margin: 0 auto;
+        text-align: center;
+    }
+    .contacts-list ul {
+        justify-content: center;
+    }
 }
